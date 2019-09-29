@@ -1,6 +1,16 @@
 body {
     background-color: #191919;
 }
+p {
+    color: #fff
+}
+
+h1 {
+    color: #fdd700;
+}
+h2 {
+    color: #fff;
+}
 
 .navbar-brand {
     display: flex;
@@ -16,6 +26,7 @@ body {
         font-size: 18px;
         opacity: 0;
         transition: .4s ease-out;
+        color: #191919;
     }
     &:hover {
         img {
@@ -42,18 +53,4 @@ body {
         border-radius: 50%;
         border: 2px solid #191919;
     }
-    .content {
-        h1 {
-            color: #fdd700;
-        }
-        h2 {
-            color: #fff;
-            font-weight: 400;
-        }
-        margin-top: 35%;
-        border-left: 8px solid #fff;
-        padding-left: 15px;
-        overflow: hidden;
-    }
-
 }
