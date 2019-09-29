@@ -1,11 +1,24 @@
 import React from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
+import Logo from '../../img/Logo.jpg';
+
+
 
 export const Home = () => (
-    <div>
-        <h2>Hello world</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi similique odio officiis qui sed maiores alias blanditiis quod, assumenda et iste, at exercitationem aliquid officia expedita, eos inventore corporis nobis?</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi similique odio officiis qui sed maiores alias blanditiis quod, assumenda et iste, at exercitationem aliquid officia expedita, eos inventore corporis nobis?</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi similique odio officiis qui sed maiores alias blanditiis quod, assumenda et iste, at exercitationem aliquid officia expedita, eos inventore corporis nobis?</p>
+    <div className="Home">
+        <Container>
+            <Row>
+                <Col>
+                    <img src={Logo} alt=""/>
+                </Col>
+                <Col>
+                    <div className="content">
+                        <h1>Hello, I'm Alisina</h1>
+                        <h2>Welcome to my new resume page I hope you enoy it.</h2>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
     </div>
 )
 

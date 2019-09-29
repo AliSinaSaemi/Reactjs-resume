@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import './App.css';
+import './assets/main/css/main.css';
 import Page from './components/Active_link';
 import { Home } from './components/pages/Home';
 import { Skills } from './components/pages/Skills';
